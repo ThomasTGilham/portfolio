@@ -1,7 +1,7 @@
 ## PERSONAL PROFILE
 Highly analytical and results-oriented Data Analyst with a unique blend of expertise in economics, advanced statistical learning, and practical marketing analytics. Proven ability to leverage econometric modeling, time series forecasting, and machine learning techniques to derive actionable insights, optimise marketing spend through Marketing Mix Modeling (MMM), and solve complex business problems. Seeking to apply a robust quantitative skill set and industry experience to impactful data science challenges.
 
-Skills: Python (Scikit-learn, TensorFlow, PyTorch, LightGBM, Selenium) - R - SQL - Relational Data Models - Econometrics - MMM - Forecasting - Data Visualisation (Looker, Tableau)  - Machine Learning - Big Data - Web Scraping - GA4 -  Segmentation - AWS
+#### Technical Skills: _Python (Scikit-learn, TensorFlow, PyTorch, LightGBM, Selenium) - R - SQL - Relational Data Models - Econometrics - MMM - Forecasting - Data Visualisation (Looker, Tableau)  - Machine Learning - Big Data - Web Scraping - GA4 -  Segmentation - AWS_
 
 ## WORK EXPERIENCE
 ### Academic Researcher | IBM 
