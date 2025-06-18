@@ -1,53 +1,3 @@
-# 🗺 Tom's Portfolio
-
-Welcome to my data portfolio! Here, I document a summary of my projects in the data field. 
-
-## 📚 Table of Contents
-- [Python](#python)
-- [Econometrics](#econometrics)
-- [Data Engineering](#data-engineering)
-- [SQL](#sql)
-- [Tableau](#tableau)
-
-# Python
-
-| Project Link | Area | Project Description | Libraries |    
-|---|---|---|---|
-|[Telco Customer Churn & Growth Analytics](https://github.com/ThomasTGilham/Churn_Funnel_Analysis_Project_Telco) | Cohort & Retention Analysis, A/B Testing, Churn Prediction (LogReg + RandomForest) | Presents a full analytics pipeline to explore, simulate, and model customer churn using the Telco Customer Churn dataset. The goal is to analyze growth and retention patterns, test strategies to reduce churn, and build a predictive model to identify at-risk customers.| pandas, numpy, matplotlib, seaborn, sklearn (LogReg, Random Forest, metrics), imblearn (SMOTE for class balancing), statsmodels (z-test for A/B testing) |
-|[Glassdoor Job Listings Web Scraper](https://github.com/ThomasTGilham/Glassdoor-Job-Listings-Scraper) | Scraping / Big Data | This .ipynb script scrapes job listings from Glassdoor with input for job type, location, and number of jobs to scrape. | Selenium, Chrome Webdriver, BeautifulSoup | 
-|[Font Image Classifier](https://github.com/ThomasTGilham/Font_Image_Classifier_ML_CW) | Machine Learning, Convolutional Neural Networks | Built a robust classifier capable of identifying the font of a given text image. This was a multi-class classification task with 2,000–3,000 unique font classes. Achieved test accuracy: 80.19% & AUC: ~0.9998|  Torch, ToTensor, OneCycleLR, pandas, matplotlib |   
-|[CS50P](https://github.com/ThomasTGilham/CS50P/blob/main/README.md) | Data Wrangling & EDA | This repo contains the solution to the problem sets in [Harvardx CS50P Introduction to Programming with Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python). | - |   
-
-***
-
-# Econometrics 
-
-| Project Link | Area | Tools | Project Description | 
-|---|---|---|---|
-| [VECM Time Series Analysis of S&P 500, CPI, and 3-Month Treasury Bill Rate](https://github.com/ThomasTGilham/Macro_VECM_TimeSeries_Analysis) | Applied Financial Econometrics |R Studio | Conducted a VECM time series analysis of S&P 500 closing prices, CPI index, and 3-month U.S. Treasury Bill rates from 2009 to 2019. It processes and merges monthly data, applies logarithmic transformation, and tests for Stationarity, Structural Breaks, Cointegration, VECM Modelling, & diagnostics checks|
-| [Econometric Analysis of Firm Level Productivity](https://github.com/ThomasTGilham/panel-data-OlleyPakesFramework-bootstrap) | Empirical Industrial Organisation | Stata, R Studio | Estimated firm-level productivity using panel data, addressing key econometric challenges including firm heterogeneity, measurement error, endogenous exit, and simultaneity bias|
-
-# Data Engineering
-
-| Project Link | Completion Date | Tools | Project Description | 
-|---|---|---|---|
-| [Spotify Wrapped](https://github.com/ThomasTGilham/My-Spotify-Wrapped) | June 2025 |Python, PostgreSQL, Airflow, DBT, Docker | Aimed to create a personalized version of Spotify Wrapped, which summarizes a user's listening history for the year. The project used airflow for orchestration, Docker for containerization, dbt for modeling and transforming data, and GitHub Actions for continuous integration and delivery. The goal was to extract the user's listening history data from Spotify's API, transform it, and load it into a database. The transformed data would then be used to generate personalized insights and visualizations summarizing the user's listening history.|
-| [Uber Taxi](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | May 2023 | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processinsg NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
-
-
-***
-
-# SQL
-
-| Project Link | Area of Analysis | Project Description | 
-|---|---|---|
-| [8-Week SQL Challenges](https://github.com/ThomasTGilham/8-Week-SQL-Challenge) | Data analysis, data cleaning, data transformation | This repo serves as the solution for the 8 case studies from the [#8WeekSQLChallenge](https://8weeksqlchallenge.com). It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills. | 
-| [Health Analytics Case Study](https://github.com/ThomasTGilham/Serious-SQL-Apprenticeship/blob/main/Health%20Analytics%20Mini%20Case%20Study.md) | Health analysis | I answer business questions related to patients data, such as average and median measurements per user, types of measurements for active users, and median blood pressure values for users. |  
-
-***
-
-# Thomas Trainor-Gilham
-
 ## PERSONAL PROFILE
 ##### Highly analytical and results-oriented Data Analyst with a unique blend of expertise in economics, advanced statistical learning, and practical marketing analytics. Proven ability to leverage econometric modeling, time series forecasting, and machine learning techniques to derive actionable insights, optimise marketing spend through Marketing Mix Modeling (MMM), and solve complex business problems. Seeking to apply a robust quantitative skill set and industry experience to impactful data science challenges.
 
@@ -86,7 +36,57 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the d
 #### Bristol, UK | Sep 2018 - June 2021
 * Achieved First-class Honours (72%) with chosen modules  heavily focused on Econometrics, Microeconomics, and statistics.
 
-### The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero
+### The Complete dbt (Data Build Tool) Bootcamp: Zero to Hero 
 #### Udemy | May 2025
-### AWS Certified Cloud Practitioner
+### AWS Certified Cloud Practitioner 
 #### Amazon Web Services | Dec 2024
+
+***
+
+# 🗺 My Portfolio
+
+Welcome to my data portfolio! Here, I document a summary of my projects in the econometrics and data science field. 
+
+## 📚 Table of Contents
+- [Python](#python)
+- [Econometrics](#econometrics)
+- [Data Engineering](#data-engineering)
+- [SQL](#sql)
+- [Tableau](#tableau)
+
+# Python
+
+| Project Link | Area | Project Description | Libraries |    
+|---|---|---|---|
+|[Telco Customer Churn & Growth Analytics](https://github.com/ThomasTGilham/Churn_Funnel_Analysis_Project_Telco) | Cohort & Retention Analysis, A/B Testing, Churn Prediction (LogReg + RandomForest) | Presents a full analytics pipeline to explore, simulate, and model customer churn using the Telco Customer Churn dataset. The goal is to analyze growth and retention patterns, test strategies to reduce churn, and build a predictive model to identify at-risk customers.| pandas, numpy, matplotlib, seaborn, sklearn (LogReg, Random Forest, metrics), imblearn (SMOTE for class balancing), statsmodels (z-test for A/B testing) |
+|[Glassdoor Job Listings Web Scraper](https://github.com/ThomasTGilham/Glassdoor-Job-Listings-Scraper) | Scraping / Big Data | This .ipynb script scrapes job listings from Glassdoor with input for job type, location, and number of jobs to scrape. | Selenium, Chrome Webdriver, BeautifulSoup | 
+|[Font Image Classifier](https://github.com/ThomasTGilham/Font_Image_Classifier_ML_CW) | Machine Learning, Convolutional Neural Networks | Built a robust classifier capable of identifying the font of a given text image. This was a multi-class classification task with 2,000–3,000 unique font classes. Achieved test accuracy: 80.19% & AUC: ~0.9998|  Torch, ToTensor, OneCycleLR, pandas, matplotlib |   
+|[CS50P](https://github.com/ThomasTGilham/CS50P/blob/main/README.md) | Data Wrangling & EDA | This repo contains the solution to the problem sets in [Harvardx CS50P Introduction to Programming with Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python). | - |   
+
+***
+
+# Econometrics 
+
+| Project Link | Area | Tools | Project Description | 
+|---|---|---|---|
+| [VECM Time Series Analysis of S&P 500, CPI, and 3-Month Treasury Bill Rate](https://github.com/ThomasTGilham/Macro_VECM_TimeSeries_Analysis) | Applied Financial Econometrics |R Studio | Conducted a VECM time series analysis of S&P 500 closing prices, CPI index, and 3-month U.S. Treasury Bill rates from 2009 to 2019. It processes and merges monthly data, applies logarithmic transformation, and tests for Stationarity, Structural Breaks, Cointegration, VECM Modelling, & diagnostics checks|
+| [Econometric Analysis of Firm Level Productivity](https://github.com/ThomasTGilham/panel-data-OlleyPakesFramework-bootstrap) | Empirical Industrial Organisation | Stata, R Studio | Estimated firm-level productivity using panel data, addressing key econometric challenges including firm heterogeneity, measurement error, endogenous exit, and simultaneity bias|
+
+***
+
+# Data Engineering
+
+| Project Link | Completion Date | Tools | Project Description | 
+|---|---|---|---|
+| [Spotify Wrapped](https://github.com/ThomasTGilham/My-Spotify-Wrapped) | June 2025 |Python, PostgreSQL, Airflow, DBT, Docker | Aimed to create a personalized version of Spotify Wrapped, which summarizes a user's listening history for the year. The project used airflow for orchestration, Docker for containerization, dbt for modeling and transforming data, and GitHub Actions for continuous integration and delivery. The goal was to extract the user's listening history data from Spotify's API, transform it, and load it into a database. The transformed data would then be used to generate personalized insights and visualizations summarizing the user's listening history.|
+| [Uber Taxi](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | May 2023 | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processinsg NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
+
+***
+
+# SQL
+
+| Project Link | Area of Analysis | Project Description | 
+|---|---|---|
+| [8-Week SQL Challenges](https://github.com/ThomasTGilham/8-Week-SQL-Challenge) | Data analysis, data cleaning, data transformation | This repo serves as the solution for the 8 case studies from the [#8WeekSQLChallenge](https://8weeksqlchallenge.com). It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills. | 
+| [Health Analytics Case Study](https://github.com/ThomasTGilham/Serious-SQL-Apprenticeship/blob/main/Health%20Analytics%20Mini%20Case%20Study.md) | Health analysis | I answer business questions related to patients data, such as average and median measurements per user, types of measurements for active users, and median blood pressure values for users. |  
+
