@@ -4,6 +4,7 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the d
 
 ## 📚 Table of Contents
 - [Python](#python)
+- [Econometrics](#econometrics)
 - [Data Engineering](#data-engineering)
 - [SQL](#sql)
 - [Tableau](#tableau)
@@ -12,23 +13,27 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the d
 
 | Project Link | Area | Project Description | Libraries |    
 |---|---|---|---|
+|[Telco Customer Churn & Growth Analytics](https://github.com/ThomasTGilham/Churn_Funnel_Analysis_Project_Telco) | Cohort & Retention Analysis, A/B Testing, Churn Prediction (LogReg + RandomForest) | Presents a full analytics pipeline to explore, simulate, and model customer churn using the Telco Customer Churn dataset. The goal is to analyze growth and retention patterns, test strategies to reduce churn, and build a predictive model to identify at-risk customers.| pandas, numpy, matplotlib, seaborn, sklearn (LogReg, Random Forest, metrics), imblearn (SMOTE for class balancing), statsmodels (z-test for A/B testing) |
 |[Glassdoor Job Listings Web Scraper](https://github.com/ThomasTGilham/Glassdoor-Job-Listings-Scraper) | Scraping / Big Data | This .ipynb script scrapes job listings from Glassdoor with input for job type, location, and number of jobs to scrape. | Selenium, Chrome Webdriver, BeautifulSoup | 
-| 👩🏻‍💻 [CS50P - Ongoing](https://github.com/katiehuangx/CS50P/blob/main/README.md) | Programming | This repo contains the solution to the problem sets in [Harvardx CS50P Introduction to Programming with Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python). | - | 
-| 📺 [TMDb Movie Analysis](https://github.com/katiehuangx/Udacity-Data-Analyst-Nanodegree/blob/main/Project%202%20-%20TMDB%20Movie%20Analysis.ipynb) |   Data Wrangling & EDA | I analysed more than 10,000 TMDb movies and getting the answers to - Which actor(s) is associated with higher revenue and profit, Does a higher budget constitute to a higher profit, and Which director produced the highest grossing movie? | pandas, matplotlib |   
-| ⛽️ [Fuel Economy](https://github.com/katiehuangx/Udacity-Data-Analyst-Nanodegree/blob/main/Case%20Study%202%20-%20Fuel%20Economy.ipynb) | Data Wrangling & EDA | Analysis on vehicles’ fuel economy in 2008 and 2018 to understand usage of alternative sources of fuel, changes in greenhouse gas and smog ratings over the decade, and vehicle features associated with better fuel economy. |  pandas, matplotlib |   
-| 🍷 [Wine Quality](https://github.com/katiehuangx/Udacity-Data-Analyst-Nanodegree/blob/main/Case%20Study%201%20-%20Analysing%20Wine%20Quality.ipynb) | Data Wrangling & EDA | A study on red and white wine samples and understanding whether certain types of wine and their qualities (alcohol level, sugar content and acidity level) are associated with higher wine quality. | pandas, matplotlib |   
-| 🌤 [Explore Weather Trends](https://github.com/katiehuangx/Udacity-Data-Analyst-Nanodegree/blob/main/Project%201%20-%20Explore%20Weather%20Trends.ipynb) | Time-series analysis | In this time-series analysis, I use moving average method to analyze local and global temperature data and compare the temperature trends where I live to overall global temperature trends. | pandas, matplotlib |
-| 🛍 [Super Store Analysis](https://github.com/katiehuangx/Super-Store-Analysis/blob/main/Super_Store_Analysis.ipynb) | EDA | Analysis of sales data to find out highest revenue and profit product categories and top customer segments. | pandas, matplotlib, seaborn |
-| 🏃🏻‍♀️ [Bellabeat Fitness Tracking Analysis](https://github.com/katiehuangx/Google-Data-Analytics-Capstone/blob/main/bellabeat-data-analysis.ipynb) | EDA | Discovered insights into whether users are using the FitBit app for tracking health habits, their frequency of usage across the week and whether there is correlation between the hours logged, number of steps taken and calories burnt. | pandas, matplotlib, seaborn |
+|[Font Image Classifier](https://github.com/ThomasTGilham/Font_Image_Classifier_ML_CW) | Machine Learning, Convolutional Neural Networks | Built a robust classifier capable of identifying the font of a given text image. This was a multi-class classification task with 2,000–3,000 unique font classes. Achieved test accuracy: 80.19% & AUC: ~0.9998|  Torch, ToTensor, OneCycleLR, pandas, matplotlib |   
+|[CS50P](https://github.com/ThomasTGilham/CS50P/blob/main/README.md) | Data Wrangling & EDA | This repo contains the solution to the problem sets in [Harvardx CS50P Introduction to Programming with Python](https://www.edx.org/course/cs50s-introduction-to-programming-with-python). | - |   
 
 ***
+
+# Econometrics 
+
+| Project Link | Area | Tools | Project Description | 
+|---|---|---|---|
+| [VECM Time Series Analysis of S&P 500, CPI, and 3-Month Treasury Bill Rate](https://github.com/ThomasTGilham/Macro_VECM_TimeSeries_Analysis) | Applied Financial Econometrics |R Studio | Conducted a VECM time series analysis of S&P 500 closing prices, CPI index, and 3-month U.S. Treasury Bill rates from 2009 to 2019. It processes and merges monthly data, applies logarithmic transformation, and tests for Stationarity, Structural Breaks, Cointegration, VECM Modelling, & diagnostics checks|
+| [Econometric Analysis of Firm Level Productivity](https://github.com/ThomasTGilham/panel-data-OlleyPakesFramework-bootstrap) | Empirical Industrial Organisation | Stata, R Studio | Estimated firm-level productivity using panel data, addressing key econometric challenges including firm heterogeneity, measurement error, endogenous exit, and simultaneity bias|
 
 # Data Engineering
 
 | Project Link | Completion Date | Tools | Project Description | 
 |---|---|---|---|
-| 🚗 [Uber Taxi](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | May 2023 | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processinsg NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
-| 🐶 [Dog Adoption](https://github.com/katiehuangx/data-engineering/tree/main/Dog%20Adoption) | Mar 2023 |Python, PostgreSQL, Jupyter Notebook | Designed, created, and deployed a custom data model for a dog adoption data set using Python and PostgreSQL on Jupyter Notebook. |
+| [Spotify Wrapped](https://github.com/ThomasTGilham/My-Spotify-Wrapped) | June 2025 |Python, PostgreSQL, Airflow, DBT, Docker | Aimed to create a personalized version of Spotify Wrapped, which summarizes a user's listening history for the year. The project used airflow for orchestration, Docker for containerization, dbt for modeling and transforming data, and GitHub Actions for continuous integration and delivery. The goal was to extract the user's listening history data from Spotify's API, transform it, and load it into a database. The transformed data would then be used to generate personalized insights and visualizations summarizing the user's listening history.|
+| [Uber Taxi](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | May 2023 | Python, GCP (Storage, Compute Engine, BigQuery), Mage, Looker Studio | Developed and implemented an end-to-end ETL pipeline for processinsg NYC Trip Record data. The pipeline encompassed extracting raw data, performing data transformation using Python, applying fact and dimensional data modelling techniques, orchestrating the pipeline on Mage, and ultimately creating a dashboard using Looker Studio. |
+
 
 ***
 
@@ -36,29 +41,12 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the d
 
 | Project Link | Area of Analysis | Project Description | 
 |---|---|---|
-| 💡 [8-Week SQL Challenges](https://github.com/katiehuangx/8-Week-SQL-Challenge) | Data analysis, data cleaning, data transformation | This repo serves as the solution for the 8 case studies from the [#8WeekSQLChallenge](https://8weeksqlchallenge.com). It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills. | 
-| 👩🏻‍⚕️ [Health Analytics Case Study](https://github.com/katiehuangx/Serious-SQL-Apprenticeship/blob/main/Health%20Analytics%20Mini%20Case%20Study.md) | Health analysis | I answer business questions related to patients data, such as average and median measurements per user, types of measurements for active users, and median blood pressure values for users. |  
-| 🦠 [Covid-19 and the Impact on Malaysia Stock Market](https://github.com/katiehuangx/Covid-19-and-Impact-on-Malaysia-stock-market) | Data cleaning, data analysis | A project close to 🏡 home. Inspired by Alex Freberg's [Data Exploration Project](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=1), I analysed global and local Covid-19 cases & the impact on Malaysia stock market from Jan 2020 to Jul 2021 using SQL and Tableau. |  
+| [8-Week SQL Challenges](https://github.com/ThomasTGilham/8-Week-SQL-Challenge) | Data analysis, data cleaning, data transformation | This repo serves as the solution for the 8 case studies from the [#8WeekSQLChallenge](https://8weeksqlchallenge.com). It showcases my ability to tackle various SQL challenges and demonstrates my proficiency in SQL query writing and problem-solving skills. | 
+| [Health Analytics Case Study](https://github.com/ThomasTGilham/Serious-SQL-Apprenticeship/blob/main/Health%20Analytics%20Mini%20Case%20Study.md) | Health analysis | I answer business questions related to patients data, such as average and median measurements per user, types of measurements for active users, and median blood pressure values for users. |  
 
 ***
 
-# Tableau
-
-| Project Link | Project Description | Dashboard Link |
-|---|---|---|
-| 🦄 [Maven Unicorn Challenge](https://github.com/katiehuangx/Maven-Unicorn-Challenge) | Cleansed and transformed data on privately-owned companies (start-ups) valued at over $1 billion using Python. Visualised key insights using Tableau, including the timeline of valuations, the top 10 countries and investors with the highest valuations, the most successful unicorns, and the average time it takes to reach a $1 billion valuation. | [Dashboard](https://public.tableau.com/app/profile/katie.huang/viz/UnicornCompanies_16502745371460/Unicorns?publish=yes) |
-| 🦠 [Covid-19 and the Impact on Malaysia Stock Market](https://github.com/katiehuangx/Covid-19-and-Impact-on-Malaysia-stock-market) | A project close to 🏡 home. Inspired by Alex Freberg's [Data Exploration Project](https://www.youtube.com/watch?v=qfyynHBFOsM&list=PLUaB-1hjhk8H48Pj32z4GZgGWyylqv85f&index=1), I analysed global and local Covid-19 cases in Malaysia and the impact on the KLSE stock market from Jan 2020 to Jul 2021 using SQL and Tableau. | [Dashboard](https://public.tableau.com/app/profile/katie.huang/viz/Covid-19anditsimpactonKLSEIndexPriceinMalaysia/Dashboard1) |
-
-***
-
-
-
-
-
-
-
-
-
+# Thomas Trainor-Gilham
 
 ## PERSONAL PROFILE
 ##### Highly analytical and results-oriented Data Analyst with a unique blend of expertise in economics, advanced statistical learning, and practical marketing analytics. Proven ability to leverage econometric modeling, time series forecasting, and machine learning techniques to derive actionable insights, optimise marketing spend through Marketing Mix Modeling (MMM), and solve complex business problems. Seeking to apply a robust quantitative skill set and industry experience to impactful data science challenges.
