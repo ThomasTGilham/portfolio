@@ -49,11 +49,13 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the e
 ***
 
 # Resume
-
+***
 ## PERSONAL PROFILE
 ##### Highly analytical and results-oriented Data Analyst with a unique blend of expertise in economics, advanced statistical learning, and practical marketing analytics. Proven ability to leverage econometric modeling, time series forecasting, and machine learning techniques to derive actionable insights, optimise marketing spend through Marketing Mix Modeling (MMM), and solve complex business problems. Seeking to apply a robust quantitative skill set and industry experience to impactful data science challenges.
 
 #### Technical Skills: _Python (Scikit-learn, TensorFlow, PyTorch, LightGBM, Selenium) - R - SQL - Relational Data Models - Econometrics - MMM - Forecasting - Data Visualisation (Looker, Tableau)  - Machine Learning - Big Data - Web Scraping - GA4 -  Segmentation - AWS_
+
+***
 
 ## WORK EXPERIENCE
 ### Academic Researcher | IBM 
@@ -75,7 +77,7 @@ Welcome to my data portfolio! Here, I document a summary of my projects in the e
 * Worked in Kantar’s Perfect Category division delivering range, space, and pricing optimisation for FMCG clients (Colgate-Palmolive, Unilever, Red Bull, etc) using EPoS, panel, and shopper behaviour data from retailers across EMEA.
 * Applied advanced analytics with Python (TURF, clustering, price elasticity, promotion uplift modelling) to inform category strategies and drive incremental growth.
 * Built and presented data-driven recommendations on assortment, shelf layout, and shopper targeting to senior client stakeholders across sales, marketing, and category management.
-
+***
 ## EDUCATION & COURSES
 ### MSc Economics with Data Science | University of Bristol
 #### Bristol, UK	| Sep 2024 - Present
