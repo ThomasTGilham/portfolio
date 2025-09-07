@@ -30,22 +30,22 @@ A highly analytical **Marketing Data Scientist** with a Master's in Economics, s
 ### Marketing Effectiveness & Econometrics
 | Project | Description | Key Skills |
 |---|---|---|
-| [**Runner Retention & Engagement Analysis**](https://github.com/ThomasTGilham/runna-retention-analysis) | Proactively investigated the drivers of user retention by engineering a synthetic dataset to model dynamic user personas, identifying key predictive features with a Decision Tree. | Predictive Modeling, Behavioral Analysis, Python, Tableau |
-| [**Econometric Analysis of Firm Productivity**](https://github.com/ThomasTGilham/panel-data-OlleyPakesFramework-bootstrap) | Estimated firm-level productivity using panel data, addressing key econometric challenges including endogenous exit and simultaneity bias. | Econometrics, Panel Data, Stata, R |
-| [**VECM Time Series Analysis**](https://github.com/ThomasTGilham/Macro_VECM_TimeSeries_Analysis) | Conducted a VECM analysis of S&P 500, CPI, and Treasury Bill rates, including tests for stationarity, structural breaks, and cointegration. | Time Series Analysis, VECM, R |
+| [**Runner Retention & Engagement Analysis**](https://github.com/ThomasTGilham/runna-retention-analysis) | Proactively investigated the drivers of user retention by engineering a synthetic dataset to model dynamic user personas, identifying key predictive features with a Decision Tree. | *Predictive Modeling, Behavioral Analysis, Python, Tableau* |
+| [**Econometric Analysis of Firm Productivity**](https://github.com/ThomasTGilham/panel-data-OlleyPakesFramework-bootstrap) | Estimated firm-level productivity using panel data, addressing key econometric challenges including endogenous exit and simultaneity bias. | *Econometrics, Panel Data, Stata, R* |
+| [**VECM Time Series Analysis**](https://github.com/ThomasTGilham/Macro_VECM_TimeSeries_Analysis) | Conducted a VECM analysis of S&P 500, CPI, and Treasury Bill rates, including tests for stationarity, structural breaks, and cointegration. | *Time Series Analysis, VECM, R* |
 
 ### Predictive Modeling & Machine Learning
 | Project | Description | Key Skills |
 |---|---|---|
-| [**Predictive Risk Modeling (Telco Churn)**](https://github.com/ThomasTGilham/Churn_Funnel_Analysis_Project_Telco) | Developed classification models (Logistic Regression, Random Forest; ROC AUC 0.84) to predict churn risk and validated a retention strategy via a simulated A/B test. | Churn Prediction, Causal Inference, A/B Testing, Scikit-learn |
-| [**Font Image Classifier (CNN)**](https://github.com/ThomasTGilham/Font_Image_Classifier_ML_CW) | Built a multi-class Convolutional Neural Network to identify the font of a text image, achieving 80% test accuracy across ~2,500 unique classes. | Deep Learning, CNN, PyTorch, Computer Vision |
-| [**Glassdoor Web Scraper**](https://github.com/ThomasTGilham/Glassdoor-Job-Listings-Scraper) | Built a web scraper to collect job listing data from Glassdoor for subsequent NLP analysis. | Web Scraping, Selenium, BeautifulSoup |
+| [**Predictive Risk Modeling (Telco Churn)**](https://github.com/ThomasTGilham/Churn_Funnel_Analysis_Project_Telco) | Developed classification models (Logistic Regression, Random Forest; ROC AUC 0.84) to predict churn risk and validated a retention strategy via a simulated A/B test. | *Churn Prediction, Causal Inference, A/B Testing, Scikit-learn* |
+| [**Font Image Classifier (CNN)**](https://github.com/ThomasTGilham/Font_Image_Classifier_ML_CW) | Built a multi-class Convolutional Neural Network to identify the font of a text image, achieving 80% test accuracy across ~2,500 unique classes. | *Deep Learning, CNN, PyTorch, Computer Vision* |
+| [**Glassdoor Web Scraper**](https://github.com/ThomasTGilham/Glassdoor-Job-Listings-Scraper) | Built a web scraper to collect job listing data from Glassdoor for subsequent NLP analysis. | *Web Scraping, Selenium, BeautifulSoup* |
 
 ### Data Engineering & MLOps
 | Project | Description | Key Skills |
 |---|---|---|
-| [**End-to-End MLOps Pipeline (Spotify)**](https://github.com/ThomasTGilham/My-Spotify-Wrapped) | Engineered a production-ready, automated data pipeline to deliver a personalized 'Spotify Wrapped' dashboard, demonstrating full-stack data science skills. | Airflow, dbt, Docker, CI/CD, PostgreSQL, API Integration |
-| [**Cloud ETL Pipeline (Uber Data)**](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | Developed an end-to-end ETL pipeline on GCP, processing NYC taxi data with fact/dimensional modeling and orchestration via Mage. | GCP (BigQuery, GCS), Mage, ETL, Data Modeling |
+| [**End-to-End MLOps Pipeline (Spotify)**](https://github.com/ThomasTGilham/My-Spotify-Wrapped) | Engineered a production-ready, automated data pipeline to deliver a personalized 'Spotify Wrapped' dashboard, demonstrating full-stack data science skills. | *Airflow, dbt, Docker, CI/CD, PostgreSQL, API Integration* |
+| [**Cloud ETL Pipeline (Uber Data)**](https://github.com/katiehuangx/data-engineering/tree/main/Uber%20Project) | Developed an end-to-end ETL pipeline on GCP, processing NYC taxi data with fact/dimensional modeling and orchestration via Mage. | *GCP (BigQuery, GCS), Mage, ETL, Data Modeling* |
 
 ### SQL Challenges
 | Project | Description |
@@ -56,7 +56,7 @@ A highly analytical **Marketing Data Scientist** with a Master's in Economics, s
 
 ## Education & Certifications
 * **MSc Economics with Data Science** | University of Bristol
-    * *Relevant Modules: Empirical Industrial Organisation (100%), Machine Learning (90%), Large Scale Data Engineering (85%)*
+    * *Relevant Modules: Empirical Industrial Organisation (100%), Machine Learning (90%), Large Scale Data Engineering (85%), Econometrics with Python (72%), Economic Analytics (76%)*
 * **BSc Economics (First-Class Honours)** | University of Bristol
 * **AWS Certified Cloud Practitioner**
 * **The Complete dbt (Data Build Tool) Bootcamp**
