@@ -1,4 +1,5 @@
 ---
+layout: default
 ---
 
 # Thomas Trainor-Gilham | Data Science & Analytics Portfolio
