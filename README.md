@@ -1,7 +1,7 @@
 # Thomas Trainor-Gilham | Data Science & Analytics Portfolio
 
 [<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />](https://www.linkedin.com/in/thomastgilham/)
-[<img src="https://img.shields.io/badge/Resume-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />](https://github.com/ThomasTGilham/portfolio/main/Marketing Science_Thomas Trainor-Gilham CV 2025.pdf)
+[<img src="https://img.shields.io/badge/Resume-PDF-D14836?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" />](https://github.com/ThomasTGilham/portfolio/main/MSci_ThomasTrainor-Gilham_CV_25.pdf)
 
 ---
 
